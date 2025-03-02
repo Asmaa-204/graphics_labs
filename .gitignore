@@ -1,0 +1,39 @@
+# Ignore any build directories, regardless of their location
+**/build/
+**/bin/
+**/obj/
+
+# Ignore CMake-related files
+**/CMakeFiles/
+**/CMakeCache.txt
+**/Makefile
+**/cmake_install.cmake
+
+# IDEs and editors
+**/.idea/               # JetBrains IDEs (e.g., IntelliJ IDEA, CLion)
+**/.vscode/             # Visual Studio Code settings
+**/*.sublime-workspace  # Sublime Text workspace files
+**/*.sublime-project    # Sublime Text project files
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Shader compiled files
+*.spv
+
+# Compiled libraries
+*.a
+*.so
+*.dll
+
+# Executables
+*.exe
+*.out
