@@ -10,10 +10,7 @@
 **/cmake_install.cmake
 
 # IDEs and editors
-**/.idea/               # JetBrains IDEs (e.g., IntelliJ IDEA, CLion)
-**/.vscode/             # Visual Studio Code settings
-**/*.sublime-workspace  # Sublime Text workspace files
-**/*.sublime-project    # Sublime Text project files
+**/.vscode/
 
 # OS-specific files
 .DS_Store
